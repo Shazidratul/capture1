@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #41c17d;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 100%px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/************header start********************/
+
+.logo{
+    width: 25%;
+    background-color: #43bb7b;
+    float: left;
+}
+.logo img{
+    padding: 50px 100px 50px 100px;
+}
+.menu{
+    width: 50%;
+    background-color: #43bb7b;
+    float: left;
+}
+.menu ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:  'Open Sans', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.menu ul li a{
+    color: #ffffff;
+    padding-right: 37px;
+    transition: all linear 0.5s;
+}
+.menu ul li a:hover{
+    color: rgb(14, 13, 13);
+}
+.sicon{
+    width: 25%;
+    background-color: #43bb7b;
+    float: left;
+}
+.icon{
+    padding-left: 80px;
+}
+
+.sicon ul li{
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.sicon ul li a{
+    padding-right: 20px;
+    padding-top: 10px;
+    color: rgb(249, 249, 252);
+    transition: all linear 0.5s;
+}
+.sicon ul li a:hover{
+         color: blue;
+}
+/************header end********************/
+
+/************banner start********************/
+.banner_img{
+    background: url(../image/banner.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    content: '';
+    background-position: center;
+    background-size: cover;
+}
+.banner_text{
+    padding-left: 200px;
+    padding-top: 115px;
+}
+.banner_text h2{
+    font-size: 34px;
+    font-weight: 400;
+    color: #525252;
+    padding-bottom: 40px;
+}
+.banner_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6e6c6c;
+    padding-bottom: 10px;
+}
+.banner_text a{
+    color: #525252;
+    border: 2px solid #525252;
+    padding: 20px 40px 20px 40px;
+    transition: all linear 0.4s;
+}
+.banner_text a i{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.banner_text a:hover{
+    background-color: #43bb7b;
+    color: rgb(248, 247, 247);
+    border: 2px solid #43bb7b;
+}
+/************banner end********************/
+
+/*****************social start************/
+.social{
+  
+    background-color: #f3f3f3;
+    padding-left: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.social_icon ul li {
+       display: inline-block;
+}
+.social_icon ul li a{
+    color: #dfdfdf;
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 100px;
+    transition: all linear  0.4s;
+}
+.social_icon ul li a:hover{
+    color: #43bb7b;
+}
+/*****************social end************/
+
+/*****************video start**********/
+.video{
+    background-color: #faf9f9;
+    width: 100%;
+}
+.video_img{
+    padding-top: 150px;
+    padding-left: 180px;
+    padding-right: 150px;
+    float: left;
+}
+.video_text{
+    padding-top: 120px;
+    padding-bottom: 200px;
+    height: 570px;
+}
+.video_text h3{
+    font-size: 34px;
+    font-weight: 400;
+    color: #525151;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.video_text p{
+    color: #767272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.video_text ul li p{
+    padding-top: 20px;
+}
+.video_text ul li i{
+    padding-right: 20px;
+}
+
+.video_text ul li a p{
+    transition: all linear 0.4s;
+}
+.video_text ul li a p:hover{
+         color: #43bb7b;
+}
+.video_click{
+    padding-right: 220px;
+    padding-top: 60px;
+    float: right;
+}
+.video_click a{
+    padding: 20px 40px;
+    color: #5d5d5d;
+    border: 2px solid #5d5d5d;
+    transition: all linear 0.4s;
+}
+.video_click a:hover{
+          background-color:#43bb7b;
+          color: #dfdfdf;
+          border: 2px solid #43bb7b;
+}
+.video_click i{
+    padding-right: 20px;
+}
+/*****************video end**********/
+
+/****************fames start********/
+.fames{
+    height: 600px;
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    background-color: #43bb7b;
+}
+.fames_item{
+    width: 250px;
+    height: 215px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    float:left;
+}
+.fames_item .icon{
+    color: #ffffff;
+    padding-bottom: 50px;
+    margin-left: 30px;
+}
+.fames_item h6{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fames_item p{
+    color: #ffffff;
+    text-align: center;
+}
+/****************fames end********/
+
+/****************john start**************/
+
+.john{
+    padding: 100px 300px 100px 300px;
+}
+.john_text p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #525252;
+    padding-bottom: 50px;
+}
+.john_text h4{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #525252;
+}
+.john_text h4 a{
+    color: #525252;
+    transition: all linear 0.3s;
+}
+.john_text h4 a:hover{
+    color: #41c17d;
+}
+.arrow{
+    padding-left: 320px;
+}
+.arrow i{
+    color: #525252;
+    padding-right:10px;
+}
+/****************john end***************/
+
+/****************email start*****************/
+.email{
+    padding: 100px 500px;
+    background-color: #41c17d;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #faf9f9;
+    padding-bottom: 50px;
+}
+.email_box{
+    height: 60px;
+    width: 370px;
+    background-color: #faf9f9;
+    margin: 0 auto;
+    color: #41c17d;
+}
+.email_box p{
+    float: left;
+    padding: 20px 180px 20px 20px;
+}
+.email_box i {
+    float: left;
+    padding: 20px 0px 20px 0px;
+}
+.email_box i a{
+    color: #41c17d;
+}
+
+/****************email end*****************/
+
+/****************footer start*****************/
+.footer{
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+}
+.footer_icon a{
+    color: #dddddd;
+    padding-right: 65px;
+    transition: all linear 0.4s;
+}
+.footer_icon a:hover{
+    color: #41c17d;
+}
+.footer_text p{
+    padding-top: 60px;
+    padding-left: 50px;
+    color: #b2b0b0;
+}
+/****************footer end*****************/
+/* back to top button */
+.back_to_top i{
+    height: 40px;
+    width: 40px;
+    background-color: #41c17d;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
